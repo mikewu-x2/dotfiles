@@ -1,3 +1,9 @@
 [user]
 	name = "Michael Wu"
 	email = "michael.ck.wu@gmail.com"
+
+[alias]
+    a = commit --amend
+    co = checkout
+    discard = reset HEAD --hard
+    wip = "!f() { git add . && git commit -m 'Work in progress'; }; f"
